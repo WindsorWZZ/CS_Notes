@@ -115,5 +115,12 @@ git push origin :the_branch_backup # everything ok, delete backup branch
 git branch -D the_branch_backup # delete local branch
 ```
 
+### 10. Delete commited files
+```zsh
+git rm -r --cached /directory
+git commit -m "rm directory"
+git push
+```
+
 
 ##
