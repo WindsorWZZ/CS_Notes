@@ -122,5 +122,13 @@ git commit -m "rm directory"
 git push
 ```
 
+### 11. Revert added file
+```zsh
+git reset HEAD {file}
+```
 
+### 12. Revert modified file
+```zsh
+git checkout -- {file}
+```
 ##
