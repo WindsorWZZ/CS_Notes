@@ -124,7 +124,7 @@ git push
 
 ### 11. Revert added file
 ```zsh
-git reset HEAD {file}
+git reset {file}
 ```
 
 ### 12. Revert modified file
